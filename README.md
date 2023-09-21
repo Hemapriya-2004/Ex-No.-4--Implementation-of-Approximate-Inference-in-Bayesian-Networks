@@ -30,9 +30,10 @@ Step 7:Print Approximate Probabilities:
 (i) Print the calculated approximate probabilities for the specified query_variable.<br>
 
 ## Program :
+```
 Developed by: R Hemapriya
 Register Number: 212221230036
-
+```
 ### Import the necessary libraries
 ```
 from pgmpy.models import BayesianNetwork
@@ -96,6 +97,7 @@ num_samples=10000
 samples=gibbs_sampler.sample(size=num_samples)
 ```
 ## Output :
+![11](https://github.com/Hemapriya-2004/Ex-No.-4--Implementation-of-Approximate-Inference-in-Bayesian-Networks/assets/94184828/06b2d330-6dba-407c-b73e-70254827f676)
 
 ## Result : 
 Thus, an Approximate method of interference computation is implemented using Gibbs Sampling in Python
