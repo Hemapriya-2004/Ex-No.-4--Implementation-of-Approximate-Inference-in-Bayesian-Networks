@@ -76,9 +76,7 @@ edges=[('Burglary','Alarm'),('Earthquake','Alarm'),('Alarm','JohnCalls'),('Alarm
 ```
 G.add_nodes_from(nodes)
 G.add_edges_from(edges)
-```
-### Set the positions from nodes
-```
+Set the positions from nodes
 pos={'Burglary':(0,0),'Earthquake':(2,0),'Alarm':(1,-2),'JohnCalls':(0,-4),'MaryCalls':(2,-4)}
 ```
 ### Draw the network
